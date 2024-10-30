@@ -1,0 +1,96 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('ImagenesHP/_F.-Jousseaume-3-@Yuka-Toyoshima.webp');
+    background-size: cover;
+}
+
+.login-container {
+    width: 100%;
+    max-width: 400px;
+}
+
+.login-box {
+    background: rgba(0, 0, 0, 0.75);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-align: center;
+}
+
+.login-box h2 {
+    margin: 0 0 20px;
+}
+
+.user-box {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+
+.user-box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.user-box input:focus ~ label, 
+.user-box input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: transparent;
+    font-size: 12px;
+}
+
+.enlaces-derecha {
+    text-align: right;
+}
+
+.enlace {
+    color: white;
+    text-decoration: none;
+}
+
+.enlace:hover {
+    text-decoration: underline;
+}
+
+.btn-submit {
+    background-color: #bac26f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 17px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+    background-color: #bac26f;
+}
+
+.text-center {
+    text-align: center;
+}
